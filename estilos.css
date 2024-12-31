@@ -48,10 +48,13 @@ body {
   border-bottom: 1px solid var(--light-gray);
 }
 .card-body-img {
+  width: 200px;
+  height: 200px;
   border: 5px solid white;
-  background-color: white;
   border-radius: 50%;
-  margin-top: -53px;
+  margin-top: -105px;
+  background-color: white;
+  overflow: hidden;
 }
 .card-body-title {
   margin: 0;
